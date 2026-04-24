@@ -152,67 +152,6 @@ A suggested repository structure is shown below.
 └── requirements.txt
 ```
 
-## Installation
-
-Clone the repository.
-
-```bash
-git clone https://github.com/yourusername/robust-indoor-localization.git
-cd robust-indoor-localization
-```
-
-Create a virtual environment.
-
-```bash
-python -m venv venv
-source venv/bin/activate
-```
-
-For Windows PowerShell, use the following command.
-
-```bash
-venv\Scripts\Activate.ps1
-```
-
-Install dependencies.
-
-```bash
-pip install -r requirements.txt
-```
-
-## Required Python Packages
-
-```text
-pandas
-numpy
-scikit-learn
-scipy
-matplotlib
-seaborn
-jupyter
-```
-
-## Usage
-
-Open the notebook.
-
-```bash
-jupyter notebook notebook/indoor_localization_pipeline.ipynb
-```
-
-Run the cells in order.
-
-1. Install and import packages
-2. Load BLE CSV files and label files
-3. Preprocess timestamps and beacon identifiers
-4. Generate 40 second windows
-5. Extract 33 dimensional features
-6. Apply train test splitting
-7. Perform minority augmentation
-8. Train the Random Forest model
-9. Apply Viterbi smoothing and adaptive thresholding
-10. Run ensemble voting and minority boost
-11. Generate evaluation metrics and prediction outputs
 
 ## Evaluation Metrics
 
