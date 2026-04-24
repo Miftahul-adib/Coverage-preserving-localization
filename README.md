@@ -1,8 +1,10 @@
-# Coverage Preserving Ensemble Framework with Minority Recovery for Robust Indoor Localization
-
 This repository contains the research implementation for a BLE based indoor localization framework developed for the ABC 2026 Decode the Invisible Challenge. The goal is to predict caregiver room location in a nursing care facility while maintaining full prediction coverage and improving recognition of underrepresented rooms.
 
 The method combines a Random Forest classifier, minority data recovery, temporal smoothing, adaptive confidence logic, ensemble voting, and a final minority boost stage. Unlike confidence filtering methods that leave some windows unpredicted, this framework is designed to produce a continuous room trace for every test window.
+
+## 🏛️ Presented At
+
+This work was presented at the **[ABC 2026 — Activity and Behavior Computing Conference](https://autocare.ai/abc2026)**, as part of the *Decode the Invisible Challenge* track.
 
 ## Published Paper
 
@@ -132,8 +134,8 @@ Coverage-preserving-localization/
 ├── README.md
 ├── Robust_Indoor_Localization_via_Minority_Recovery.pptx
 └── (Final)_ABC2026_GARCIA_+_Hybrid_VITERBI_+_ADAPTIVE_THRESHOLD (2).ipynb
-
 ```
+
 ## Evaluation Metrics
 
 The project reports the following metrics.
