@@ -127,7 +127,7 @@ This is useful for healthcare workflow analytics because missing prediction wind
 
 ## Repository Contents
 
-```text
+
 Coverage-preserving-localization/
 ├── README.md
 ├── Robust_Indoor_Localization_via_Minority_Recovery.pptx
