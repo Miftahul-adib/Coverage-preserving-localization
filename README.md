@@ -125,33 +125,13 @@ The main contribution of this repository is a full coverage inference framework 
 
 This is useful for healthcare workflow analytics because missing prediction windows can break downstream analysis of caregiver movement, room occupancy, and activity flow.
 
-## Repository Structure
-
-A suggested repository structure is shown below.
+## Repository Contents
 
 ```text
-.
+Coverage-preserving-localization/
 ├── README.md
-├── notebook
-│   └── indoor_localization_pipeline.ipynb
-├── data
-│   ├── raw
-│   ├── processed
-│   └── labels
-├── outputs
-│   ├── metrics
-│   ├── reports
-│   └── predictions
-├── src
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   ├── train_model.py
-│   ├── inference.py
-│   ├── viterbi_smoothing.py
-│   └── minority_recovery.py
-└── requirements.txt
-```
-
+├── Robust_Indoor_Localization_via_Minority_Recovery.pptx
+└── (Final)_ABC2026_GARCIA_+_Hybrid_VITERBI_+_ADAPTIVE_THRESHOLD (2).ipynb
 
 ## Evaluation Metrics
 
